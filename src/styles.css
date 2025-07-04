@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+:root{
+    --max-width-big-screen: 1000px;
+}
+.flex {
+    display: flex;
+    width: 100%;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+p{
+    margin: 10px 0px;
+}
