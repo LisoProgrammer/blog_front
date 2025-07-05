@@ -2,14 +2,22 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Open-Sans", sans-serif;
+}
+@font-face {
+    font-family: "Open-Sans";
+    src: url("/fonts/opensans.ttf");
 }
 :root{
     --max-width-big-screen: 1000px;
+    --color-1: #0076ad;
+    --color-2: #66a6ff;
+    --color-3: #89f7fe;
 }
 .flex {
     display: flex;
     width: 100%;
+    align-items: center;
 }
 .center {
     justify-content: center;
@@ -19,5 +27,5 @@
     justify-content: space-between;
 }
 p{
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
