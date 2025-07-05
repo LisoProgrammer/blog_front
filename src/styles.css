@@ -14,6 +14,8 @@
   --color-1: #0076ad;
   --color-2: #66a6ff;
   --color-3: #89f7fe;
+  --color-4: #005f87;
+  --color-gray: #dadada;
 }
 .container{
     width: 100%;
@@ -36,6 +38,9 @@
 .space-between {
   justify-content: space-between;
 }
+.strech{
+  align-items: stretch;
+}
 p {
   margin: 20px 0px;
 }
@@ -55,7 +60,7 @@ p {
 .card {
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px #c9c9c9;
+  box-shadow: 0px 0px 10px var(--color-gray);
   text-align: left;
   font-size: 1rem;
   overflow: hidden;
@@ -101,8 +106,13 @@ p {
   width: fit-content;
   cursor: pointer;
 }
+.card button:hover{
+  background-color: var(--color-4); /* Un azul más oscuro */
+  transition: background-color 0.3s ease;
+}
 .card h3 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
