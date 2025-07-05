@@ -30,7 +30,7 @@ footer .container_sec {
 footer {
   padding: 2rem 1rem;
   background: #f9f9f9;
-  border-top: 1px solid rgb(231, 231, 231);
+  border-top: 2px solid var(--color-gray);
   color: #333;
 }
 
