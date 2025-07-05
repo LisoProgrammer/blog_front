@@ -7,15 +7,7 @@
     background-repeat: no-repeat;
     position: absolute;
 }
-.container{
-    width: 100%;
-    max-width: var(--max-width-big-screen);
-    padding: 20px;
-    margin: auto;
-}
-.container_sec {
-    padding: 20px 0px;
-}
+
 .container aside {
     width: 30%;
     padding: 0px 0px 0px 10px;
