@@ -17,6 +17,8 @@
     width: 30%;
     padding: 0px 0px 0px 10px;
     margin: 10px 0px;
+    position: sticky;
+    top: 15px;
 }
 .container main{
     width: 70%;
